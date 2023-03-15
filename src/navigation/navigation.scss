@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: center;
 
+    position: fixed;
+
     height: 60px;
     width: 100%;
 
@@ -18,6 +20,8 @@
 
     height: 60px;
     width: 1800px;
+
+    padding: 0 20px;
 }
 
 .link-wrapper {
@@ -37,9 +41,17 @@
 }
 
 .link {
-    color: rgba(255, 255, 255, 0.747);
+    color: rgba(255, 255, 255, 0.692);
     text-decoration: none;
 
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
+}
+
+.link:hover {
+    color: white;
+}
+
+.link:active {
+    color: rgba(255, 255, 255, 0.801);
 }

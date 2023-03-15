@@ -1,16 +1,17 @@
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/home/Home.';
-import './index.scss'
+import HeroPage from './pages/hero/HeroPage';
+import './index.scss';
+import Work from './pages/work/Work';
 
 function App() {
-
-  return (
-    <>
-    <Routes>
-      <Route path='/' element={<Home />} />
-    </Routes>
-    </>
-  )
+    return (
+        <>
+            <Routes>
+                <Route path="/" element={<HeroPage />} />
+                <Route path="/work" element={<Work />} />
+            </Routes>
+        </>
+    );
 }
 
-export default App
+export default App;

@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Teko:wght@300;400;500;600;700&display=swap');
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: 0px;
+    scrollbar-color: #d580b5;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
+
+
 body {
     margin: 0;
     padding: 0;
   
     box-sizing: border-box;
   
-    overflow: hidden;
+    overflow-y: auto;
 }    

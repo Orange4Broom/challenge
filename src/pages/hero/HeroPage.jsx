@@ -1,13 +1,13 @@
 import './heroPage.scss';
+import React from 'react';
 import Home from '../home/Home.';
 
 function HeroPage() {
-    return (
-        <>
-            <Home />
-            <Home />
-        </>
-    );
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default HeroPage;
